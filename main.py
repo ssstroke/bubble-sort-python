@@ -63,6 +63,7 @@ def bubbleSort(array):
             if (array[i] > array[i + 1]):
                 isSorted = False
                 array[i], array[i + 1] = array[i + 1], array[i]
+        size = size - 1
         if (isSorted == True):
             break
 
